@@ -40,6 +40,9 @@ There are 3 questions and there should be at least 3 separate commits, at least 
 BrLw(35,4.35,637)
 ```
 
+```{r}
+BrLw(35,2,637)
+```
 
 ```{r}
 bank=numeric()
@@ -47,6 +50,7 @@ for(j in 1:500){
   
 bank[j] = BrLw(35,4.35,637)}
 ```
+
 
 ```{r}
 hist(bank)
@@ -56,6 +60,7 @@ print(sorted[12])
 print(sorted[488])
 ```
 
+It appears that $4.35 is a fair bet number for Brownlow. By looking at the histogram the number has reached fair odds when the 0 is in the middle.
 
 # What size of class makes the 2:1 bet fair?  
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
